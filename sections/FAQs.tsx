@@ -2,8 +2,11 @@ import Accordion from "@/components/shared/Accordion"
 
 export default function FAQSection() {
   return (
-    <section id="faqs" className="p-24 bg-white min-h-screen w-full">
-      <div className="flex flex-col items-center container">
+    <section
+      id="faqs"
+      className="sm:p-24 bg-white w-full min-h-screen flex flex-col justify-center items-center"
+    >
+      <div className="flex flex-col items-center container mb-16">
         <p className="uppercase text-fuchsia-700 text-2xl font-bold text-center py-6">
           FAQs
         </p>
